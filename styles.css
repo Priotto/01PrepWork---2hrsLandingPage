@@ -49,6 +49,7 @@ a:hover {
   flex-direction: column;
   background-image: url("https://picsum.photos/1000/600?random");
   background-size: cover;
+  background-position: center top;
   text-align: center;
   justify-content: center;
   align-items: center;
