@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100vh;
+  background: rgb(240, 240, 240);
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: red;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+.icon-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+#banner {
+  background-image: url("https://picsum.photos/1000/600?random");
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: white;
+  /* font-size: 50px; */
+  font-size: clamp(3rem, 10vw, 4rem);
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  /*   margin-top: auto; */
+  /*   justify-self: flex-end; */
+  align-self: flex-end;
+  background: black;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 1.5rem;
+}
+
+#footer a :hover {
+  color: white;
+}
